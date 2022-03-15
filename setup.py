@@ -7,7 +7,7 @@ setuptools.setup(
     description='extension to common python ',
     keywords='',
     url='https://github.com/Leibovitch/usefullib.git',
-    py_modules=['pandas', 'math'],
+    py_modules=['pandas', 'math', 'numpy', 'geometry'],
     long_description=open('README.md').read(),
     packages=setuptools.find_packages(),
     include_package_data=True,
